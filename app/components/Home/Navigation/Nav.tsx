@@ -13,7 +13,7 @@ const Nav = () => {
             {/* Nav links */}
             <ul className='lg:flex hidden items-center space-x-10 lg:space-x-12 xl:space-x-14'>
               <li>
-                <Link href="#" className='nav__link'></Link>
+                <Link href="#" className='nav__link'>Home</Link>
               </li>
             </ul>
         </div>
