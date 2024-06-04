@@ -15,7 +15,20 @@ const Nav = () => {
               <li>
                 <Link href="#" className='nav__link'>Home</Link>
               </li>
+              <li>
+                <Link href="#" className='nav__link'>About</Link>
+              </li>
+              <li>
+                <Link href="#" className='nav__link'>Hosting</Link>
+              </li>
+              <li>
+                <Link href="#" className='nav__link'>Domain</Link>
+              </li>
+              <li>
+                <Link href="#" className='nav__link'>Help center</Link>
+              </li>
             </ul>
+            
         </div>
     </div>
   )
