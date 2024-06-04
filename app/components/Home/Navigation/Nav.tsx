@@ -48,7 +48,7 @@ const Nav = () => {
             {/* Login button and burger menu */}
             <div className='flex items-center space-x-6'>
                 <Button bg='bg-orange-600'>Login</Button>
-                <FaBars className='w-6 h-6 md:w-8 md:h-8 text-white rotate-180'/>
+                <FaBars className='w-6 h-6 md:w-7 md:h-7 lg:hidden text-white rotate-180'/>
             </div>
         </div>
     </div>
