@@ -1,9 +1,26 @@
+"use client"
+
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Button from '../../Helper/Button'
+import { FaBars } from 'react-icons/fa'
 
 const Nav = () => {
+
+  const [navSticky, setNavSticky] = useState(false);
+
+  useEffect(() => {
+    const handler = ( ) => {
+      if(window.scrollY >= 90) setNavSticky(true);
+      if(window.scrollY <= 90) setNavSticky(false); 
+    }
+    window.addEventListener( 'scroll', handler );
+  },[])
+
+
+
   return (
-    <div className='fixed bg-blue-950 w-full transition-all duration-200 z-[1000]'>
+    <div className={` ${navSticky ? "bg-blue-950" : "fixed"} fixed bg-blue-500 w-full transition-all duration-200 z-[1000]`}>
         <div className='flex items-center h-[10vh] lg:h-[12vh] justify-between w-4/5 mx-auto'>
             {/* Logo */}
             <div className='font-bold text-white text-2xl'>
@@ -28,7 +45,11 @@ const Nav = () => {
                 <Link href="#" className='nav__link'>Help center</Link>
               </li>
             </ul>
-            
+            {/* Login button and burger menu */}
+            <div className='flex items-center space-x-6'>
+                <Button bg='bg-orange-600'>Login</Button>
+                <FaBars className='w-6 h-6 md:w-8 md:h-8 text-white rotate-180'/>
+            </div>
         </div>
     </div>
   )
