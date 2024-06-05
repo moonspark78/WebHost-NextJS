@@ -5,7 +5,15 @@ import React, { useEffect, useState } from 'react'
 import Button from '../../Helper/Button'
 import { FaBars } from 'react-icons/fa'
 
-const Nav = () => {
+
+type Props ={
+  openNav:()=> void
+}
+
+
+
+const Nav = ({openNav}: Props) => {
+
 
   const [navSticky, setNavSticky] = useState(false);
 
@@ -20,7 +28,7 @@ const Nav = () => {
 
 
   return (
-    <div className={` ${navSticky ? "bg-blue-950" : "fixed"} fixed bg-blue-500 w-full transition-all duration-200 z-[1000]`}>
+    <div className={` ${navSticky ? "bg-blue-950" : "fixed"} fixed w-full transition-all duration-200 z-[1000]`}>
         <div className='flex items-center h-[10vh] lg:h-[12vh] justify-between w-4/5 mx-auto'>
             {/* Logo */}
             <div className='font-bold text-white text-2xl'>
@@ -48,7 +56,10 @@ const Nav = () => {
             {/* Login button and burger menu */}
             <div className='flex items-center space-x-6'>
                 <Button bg='bg-orange-600'>Login</Button>
-                <FaBars className='w-6 h-6 md:w-7 md:h-7 lg:hidden text-white rotate-180 cursor-pointer'/>
+                <FaBars  
+                  onClick={openNav}
+                  className='w-6 h-6 md:w-7 md:h-7 lg:hidden text-white rotate-180 cursor-pointer'
+                />
             </div>
         </div>
     </div>
