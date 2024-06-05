@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaMarkdown } from 'react-icons/fa'
+import { FaXmark } from 'react-icons/fa6'
 
 const MobileNav = () => {
   return (
@@ -48,8 +50,9 @@ const MobileNav = () => {
             Help center
           </Link>
         </li>
+      {/* Close button */}
+      <FaXmark className='absolute top-[-1.4rem] right-[1.4rem] w-[2.2rem] h-[2.2rem] text-white cursor-pointer'/>
       </ul>
-      
     </div>
   )
 }
