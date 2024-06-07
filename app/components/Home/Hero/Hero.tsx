@@ -1,6 +1,7 @@
 import React from 'react'
 import { CiDiscount1 } from 'react-icons/ci'
 import Button from '../../Helper/Button'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -32,7 +33,15 @@ const Hero = () => {
             </div>
           </div>
           {/* Image Content */}
-          <div></div>
+          <div className='hidden lg:block mx-auto'>
+            <Image
+              src="/images/hero1.svg"
+              alt='hero'
+              width={650}
+              height={650}
+              className='object-cover'
+            />
+          </div>
         </div>
       </div>
     </div>
