@@ -1,5 +1,6 @@
 import React from 'react'
 import { CiDiscount1 } from 'react-icons/ci'
+import Button from '../../Helper/Button'
 
 const Hero = () => {
   return (
@@ -22,9 +23,13 @@ const Hero = () => {
               <span className='absolute bottom-4 z-[1] -rotate-6 left-0 w-1/2 h-3 bg-orange-400 bg-opacity-70
               rounded-full'></span>
             </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <p className='mt-4 text-xs md:text-base text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Iste vitae eveniet cumque laborum odio a aspernatur esse corporis consequatur quia.
             </p>
+            <div className='mt-8 flex items-center space-x-4'>
+              <Button bg="bg-teal-600">Get Started</Button>
+              <Button bg="bg-amber-600">Plan And Price</Button>
+            </div>
           </div>
           {/* Image Content */}
           <div></div>
