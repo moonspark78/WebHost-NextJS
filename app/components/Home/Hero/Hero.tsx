@@ -15,12 +15,16 @@ const Hero = () => {
                 30% Discount First Month purchaes
               </span>
             </div>
-            <h1 className='text-3xl md:text-5xl lg:text-[55px] xl:text-[65px] relative z-[1] md:leading-[4.5rem] leading-[3rem]
+            <h1 className='text-3xl md:text-5xl lg:text-[50px] relative z-[1] md:leading-[4.5rem] leading-[3rem]
              mt-4 text-white font-bold'>
               Premium Hosting Technogies
               <br />
-              <span className='absolute bottom-4 '></span>
+              <span className='absolute bottom-4 z-[1] -rotate-6 left-0 w-1/2 h-3 bg-orange-400 bg-opacity-70
+              rounded-full'></span>
             </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Iste vitae eveniet cumque laborum odio a aspernatur esse corporis consequatur quia.
+            </p>
           </div>
           {/* Image Content */}
           <div></div>
