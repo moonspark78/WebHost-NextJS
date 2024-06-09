@@ -73,7 +73,7 @@ const About = () => {
                   />
                 </div>
                 <div>
-                  <h1>WordPress Hosting</h1>
+                  <h1>VPS Hosting</h1>
                   <p>Lorem ipsum dolor sit amet.</p>
                 </div>
               </div>
