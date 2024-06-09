@@ -47,6 +47,36 @@ const About = () => {
                   <p>Lorem ipsum dolor sit amet.</p>
                 </div>
               </div>
+              {/* 2st item */}
+              <div className='mt-8 flex items-center space-x-8'>
+                <div className='w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center flex-col'>
+                  <Image
+                    src="/images/i2.svg"
+                    alt='image1'
+                    width={40}
+                    height={40}
+                  />
+                </div>
+                <div>
+                  <h1>WordPress Hosting</h1>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+              {/* 3st item */}
+              <div className='mt-8 flex items-center space-x-8'>
+                <div className='w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center flex-col'>
+                  <Image
+                    src="/images/i3.svg"
+                    alt='image1'
+                    width={40}
+                    height={40}
+                  />
+                </div>
+                <div>
+                  <h1>WordPress Hosting</h1>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
             </div>
         </div>
     </div>
