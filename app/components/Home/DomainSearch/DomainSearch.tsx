@@ -8,6 +8,16 @@ const DomainSearch = () => {
         <h1 className='text-center mt-8 text-white font-semibold text-xl sm:text-2xl lg:text-3xl tracking-wider'>
           A Domain That Stands Tall on a Billboard
         </h1>
+        {/* Search box */}
+        <div className='flex  items-center w-11/12 md:w-10/12 lg:w-9/12 mx-auto mt-12 rounded-full h-12 md:h-16 bg-white'>
+          {/* input */}
+          <input
+            type="text"
+            placeholder='Register a Domain name'
+            className='w-4/5 h-full bg-transparent px-8 outline-none'
+          />
+          {/* Button */}
+        </div>
       </div>
     </div>
   )
