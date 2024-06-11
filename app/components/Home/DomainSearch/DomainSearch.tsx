@@ -9,7 +9,7 @@ const DomainSearch = () => {
           A Domain That Stands Tall on a Billboard
         </h1>
         {/* Search box */}
-        <div className='flex  items-center w-11/12 md:w-10/12 lg:w-9/12 mx-auto mt-12 rounded-full h-12 md:h-16 bg-white'>
+        <div className='flex relative items-center w-11/12 md:w-10/12 lg:w-9/12 mx-auto mt-12 rounded-full h-12 md:h-16 bg-white'>
           {/* input */}
           <input
             type="text"
@@ -17,6 +17,10 @@ const DomainSearch = () => {
             className='w-4/5 h-full bg-transparent px-8 outline-none'
           />
           {/* Button */}
+          <button className='hidden absolute sm:block right-4 h-4/5 font-semibold hover:bg-rose-700 transition-all duration-300 w-[40%]
+          lg:w-[20%] bg-blue-900 text-white text-xs sm:text-sm md:text-base rounded-full'>
+            Search Domain
+          </button>
         </div>
       </div>
     </div>
