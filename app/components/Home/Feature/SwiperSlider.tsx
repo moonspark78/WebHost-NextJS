@@ -10,7 +10,7 @@ import FeatureCard from './FeatureCard';
 const SwiperSlider = () => {
   return (
     <Swiper
-        effect={""}
+        effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
         className='w-[280px] h-[380px] md:w-[500px] md:h-[380px] p-8'
