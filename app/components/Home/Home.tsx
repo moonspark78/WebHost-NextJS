@@ -3,6 +3,7 @@ import Hero from './Hero/Hero'
 import About from './About/About'
 import HostingOptions from './HostingOptions/HostingOptions'
 import DomainSearch from './DomainSearch/DomainSearch'
+import Feature from './Feature/Feature'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <About/>
       <HostingOptions/>
       <DomainSearch/>
+      <Feature/>
     </div>
   )
 }
