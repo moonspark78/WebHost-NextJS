@@ -24,9 +24,25 @@ const DomainSearch = () => {
         </div>
         {/* Compare List */}
         <div className='w-11/12 md:w-9/12 mt-8 mb-8 grid mx-auto items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-12'>
-          <p>
+          <p className='text-white font-semibold text-sm md:text-lg'>
             Compare
           </p>
+          <div className='text-white'>
+            <span className='text-base md:text-xl text-yellow-400 font-bold underline'>.COM</span>
+            <span className='font-bold text-base'> $6.19</span>
+          </div>
+          <div className='text-white'>
+            <span className='text-base md:text-xl text-yellow-400 font-bold underline'>.NET</span>
+            <span className='font-bold text-base'> $2.14</span>
+          </div>
+          <div className='text-white'>
+            <span className='text-base md:text-xl text-yellow-400 font-bold underline'>.INFO</span>
+            <span className='font-bold text-base'> $7.32</span>
+          </div>
+          <div className='text-white'>
+            <span className='text-base md:text-xl text-yellow-400 font-bold underline'>.ORG</span>
+            <span className='font-bold text-base'> $4.79</span>
+          </div>
         </div>
       </div>
     </div>
