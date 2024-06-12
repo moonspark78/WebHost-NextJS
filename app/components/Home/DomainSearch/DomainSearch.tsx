@@ -22,6 +22,12 @@ const DomainSearch = () => {
             Search Domain
           </button>
         </div>
+        {/* Compare List */}
+        <div className='w-11/12 md:w-9/12 mt-8 mb-8 grid mx-auto items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-12'>
+          <p>
+            Compare
+          </p>
+        </div>
       </div>
     </div>
   )
