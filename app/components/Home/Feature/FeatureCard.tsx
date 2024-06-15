@@ -24,6 +24,10 @@ const FeatureCard = ({image,title}: Props) => {
         <p className='mt-4 text-white text-opacity-75 text-sm text-center'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in placeat alias inventore nemo cum.
         </p>
+        <button className='text-base block hover:bg-yellow-300 transition-all duration-150 mt-6 mx-auto uppercase
+        text-black px-8 py-2 rounded-full font-semibold cursor-pointer bg-white'>
+            View Details
+        </button>
     </div>
   )
 }
