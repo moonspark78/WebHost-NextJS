@@ -21,6 +21,9 @@ const FeatureCard = ({image,title}: Props) => {
         <h1 className='text-center text-white font-bold tracking-wider text-2xl'>
             {title}
         </h1>
+        <p className='mt-4 text-white text-opacity-75 text-sm text-center'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in placeat alias inventore nemo cum.
+        </p>
     </div>
   )
 }
