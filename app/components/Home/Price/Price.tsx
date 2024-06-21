@@ -13,6 +13,14 @@ const Price = () => {
             <div>
                 <PriceCard image="/images/p1.png" plan="Basic" price="9.99"/>
             </div>
+        {/* Price Card 2 */}
+            <div>
+                <PriceCard image="/images/p2.png" plan="Standard" price="29.99"/>
+            </div>
+        {/* Price Card 3 */}
+            <div>
+                <PriceCard image="/images/p3.png" plan="Premium" price="59.99"/>
+            </div>
         </div>
     </div>
   )
